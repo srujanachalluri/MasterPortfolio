@@ -6,32 +6,33 @@ const Footer = () => {
     <footer className="py-8 border-t border-border bg-hero-gradient">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-muted-foreground text-sm">
-          Designed & Built with 💜 by <span className="text-gradient font-semibold">Your Name</span>
+          Designed & Built with 💜 by{" "}
+          <span className="text-gradient font-semibold">Srujana Challuri</span>
         </p>
         <div className="flex gap-4">
           <a
-            href="https://github.com"
+            href="https://github.com/srujanachalluri"
             target="_blank"
             rel="noreferrer"
-            className="p-2 rounded-full border border-primary/30 text-foreground/70 hover:text-primary hover:border-primary transition-all"
+            className="p-3 rounded-full border border-primary/50 text-foreground hover:bg-primary hover:text-primary-foreground transition-all duration-300"
           >
-            <AiFillGithub className="text-lg" />
+            <AiFillGithub className="text-xl" />
           </a>
           <a
-            href="https://twitter.com"
+            href="https://www.linkedin.com/in/srujanachalluri"
             target="_blank"
             rel="noreferrer"
-            className="p-2 rounded-full border border-primary/30 text-foreground/70 hover:text-primary hover:border-primary transition-all"
+            className="p-3 rounded-full border border-primary/50 text-foreground hover:bg-primary hover:text-primary-foreground transition-all duration-300"
           >
-            <FaTwitter className="text-lg" />
+            <FaLinkedinIn className="text-xl" />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://srujanachalluri.github.io/python-projects-site/"
             target="_blank"
             rel="noreferrer"
-            className="p-2 rounded-full border border-primary/30 text-foreground/70 hover:text-primary hover:border-primary transition-all"
+            className="p-3 rounded-full border border-primary/50 text-foreground hover:bg-primary hover:text-primary-foreground transition-all duration-300"
           >
-            <FaLinkedinIn className="text-lg" />
+            Visit Python Hub
           </a>
         </div>
       </div>

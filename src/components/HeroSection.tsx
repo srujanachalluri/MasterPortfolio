@@ -5,7 +5,10 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center bg-hero-gradient overflow-hidden">
+    <section
+      id="home"
+      className="relative min-h-screen flex items-center bg-hero-gradient overflow-hidden"
+    >
       <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center pt-20">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
@@ -17,13 +20,15 @@ const HeroSection = () => {
             Hi There! <span className="inline-block animate-float">👋🏻</span>
           </h1>
           <h2 className="text-3xl md:text-4xl font-mono font-bold text-foreground mb-6">
-            I'M <span className="text-gradient glow-text">YOUR NAME</span>
+            I'M{" "}
+            <span className="text-gradient glow-text">Srujana Challuri</span>
           </h2>
           <div className="mb-8">
             <Typewriter
               texts={[
                 "Software Engineer",
                 "Full Stack Developer",
+                "Machine Learning Enthusiast",
                 "Open Source Enthusiast",
                 "Problem Solver",
               ]}
@@ -31,7 +36,7 @@ const HeroSection = () => {
           </div>
           <div className="flex gap-4 mt-6">
             <a
-              href="https://github.com"
+              href="https://github.com/srujanachalluri"
               target="_blank"
               rel="noreferrer"
               className="p-3 rounded-full border border-primary/50 text-foreground hover:bg-primary hover:text-primary-foreground transition-all duration-300"
@@ -39,12 +44,28 @@ const HeroSection = () => {
               <AiFillGithub className="text-xl" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/srujanachalluri"
               target="_blank"
               rel="noreferrer"
               className="p-3 rounded-full border border-primary/50 text-foreground hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             >
               <FaLinkedinIn className="text-xl" />
+            </a>
+            <a
+              href="https://srujanachalluri.github.io/python-projects-site/"
+              target="_blank"
+              rel="noreferrer"
+              className="p-3 rounded-full border border-primary/50 text-foreground hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+            >
+              View Resume
+            </a>
+            <a
+              href="https://srujanachalluri.github.io/python-projects-site/"
+              target="_blank"
+              rel="noreferrer"
+              className="p-3 rounded-full border border-primary/50 text-foreground hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+            >
+              Visit Python Hub
             </a>
           </div>
         </motion.div>

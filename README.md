@@ -1,6 +1,6 @@
 # 🚀 Developer Portfolio
 
-A modern, dark-themed developer portfolio built with React, TypeScript, Tailwind CSS, and Framer Motion. Inspired by [Soumyajit's Portfolio](https://soumyajit.vercel.app/).
+A modern, dark-themed developer portfolio built with React, TypeScript, Tailwind CSS, and Framer Motion.
 
 ---
 

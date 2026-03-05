@@ -5,28 +5,32 @@ import { BsGlobe } from "react-icons/bs";
 const projects = [
   {
     title: "AI Chat Application",
-    description: "A real-time chat application powered by AI with natural language processing capabilities and a modern UI.",
+    description:
+      "A real-time chat application powered by AI with natural language processing capabilities and a modern UI.",
     tech: ["React", "Node.js", "OpenAI", "Socket.io"],
     github: "#",
     demo: "#",
   },
   {
     title: "E-Commerce Platform",
-    description: "Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
+    description:
+      "Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
     tech: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
     github: "#",
     demo: "#",
   },
   {
     title: "Task Management App",
-    description: "A collaborative project management tool with real-time updates, drag-and-drop boards, and team features.",
+    description:
+      "A collaborative project management tool with real-time updates, drag-and-drop boards, and team features.",
     tech: ["React", "TypeScript", "Supabase", "DnD Kit"],
     github: "#",
     demo: "#",
   },
   {
     title: "Portfolio Generator",
-    description: "A tool that generates beautiful developer portfolios from GitHub profiles automatically.",
+    description:
+      "A tool that generates beautiful developer portfolios from GitHub profiles automatically.",
     tech: ["Next.js", "GitHub API", "Tailwind", "Vercel"],
     github: "#",
     demo: "#",
@@ -46,7 +50,7 @@ const ProjectsSection = () => {
           MY RECENT <span className="text-gradient">WORKS</span>
         </motion.h2>
         <p className="text-center text-muted-foreground mb-16 text-lg">
-          Here are a few projects I've worked on recently
+          Here are my Recent Projects
         </p>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">

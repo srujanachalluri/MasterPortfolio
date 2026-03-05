@@ -31,7 +31,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-4">
         <a href="#home" className="text-2xl font-bold font-mono text-gradient">
-          {"<YN />"}
+          {"<Srujana-SWE/>"}
         </a>
 
         {/* Desktop nav */}

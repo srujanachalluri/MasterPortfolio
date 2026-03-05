@@ -5,26 +5,37 @@ import {
   DiNodejs,
   DiPython,
   DiGit,
+  DiJava,
+  DiMysql,
 } from "react-icons/di";
+
+import { AiOutlineApi, AiOutlineRobot } from "react-icons/ai"; // For REST API & cloud-related
+
 import {
   SiTypescript,
   SiTailwindcss,
   SiNextdotjs,
-  SiPostgresql,
   SiDocker,
+  SiPostman,
+  SiCanva,
 } from "react-icons/si";
 
 const techStack = [
+  { icon: DiPython, label: "Python" },
+  { icon: DiJava, label: "Java" },
+  { icon: DiMysql, label: "MySQL" },
+  { icon: AiOutlineApi, label: "Enterprise Integrations" },
+  { icon: AiOutlineApi, label: "IBM ACE / IIB / MQ" },
+  { icon: AiOutlineRobot, label: "Machine Learning" },
   { icon: DiJavascript1, label: "JavaScript" },
   { icon: SiTypescript, label: "TypeScript" },
   { icon: DiReact, label: "React" },
-  { icon: SiNextdotjs, label: "Next.js" },
   { icon: DiNodejs, label: "Node.js" },
-  { icon: DiPython, label: "Python" },
   { icon: SiTailwindcss, label: "Tailwind" },
-  { icon: SiPostgresql, label: "PostgreSQL" },
   { icon: DiGit, label: "Git" },
   { icon: SiDocker, label: "Docker" },
+  { icon: SiPostman, label: "Postman" },
+  { icon: SiCanva, label: "Canva" },
 ];
 
 const AboutSection = () => {
@@ -37,7 +48,7 @@ const AboutSection = () => {
           viewport={{ once: true }}
           className="text-3xl md:text-4xl font-mono font-bold text-center mb-16"
         >
-          LET ME <span className="text-gradient">INTRODUCE</span> MYSELF
+          A <span className="text-gradient">LITTLE ABOUT</span> ME
         </motion.h2>
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
@@ -49,18 +60,56 @@ const AboutSection = () => {
             className="space-y-5 text-foreground/80 text-lg leading-relaxed"
           >
             <p>
-              I'm a Software Engineer who loves transforming ideas into reliable,
-              scalable products. Over time, I've explored several technologies
-              and found my passion in building high-performance systems.
+              I'm a Software Developer and Machine Learning enthusiast who
+              enjoys transforming ideas into reliable and scalable systems that
+              solve real-world problems.
             </p>
+
             <p>
-              I'm proficient in <span className="text-gradient font-semibold">JavaScript, TypeScript, Python, and Node.js</span> — and I enjoy
-              working across both backend and frontend stacks.
+              I'm currently pursuing a Master's in Computer Science working as a
+              Graduate Assistant, where I manage university websites and develop
+              automation tools using{" "}
+              <span className="text-gradient font-semibold">
+                Python Scripts and OpenAI APIs
+              </span>
+              .
             </p>
+
             <p>
-              My key areas of interest include developing{" "}
-              <span className="text-gradient font-semibold">Web Applications</span> and exploring modern frameworks like{" "}
-              <span className="text-gradient font-semibold">React.js and Next.js</span>.
+              Previously, I worked at{" "}
+              <span className="text-gradient font-semibold">Accenture</span> as
+              a Backend Developer, contributing to enterprise integration
+              systems for{" "}
+              <span className="text-gradient font-semibold">Sony LIV</span>. I
+              built RESTful APIs and backend services using{" "}
+              <span className="text-gradient font-semibold">
+                Java, .NET, and enterprise integration technologies
+              </span>
+              , and independently designed and migrated{" "}
+              <span className="text-gradient font-semibold">
+                50+ enterprise interfaces
+              </span>{" "}
+              to production.
+            </p>
+
+            <p>
+              My key areas of interest include{" "}
+              <span className="text-gradient font-semibold">
+                Machine Learning, AI-powered automation, and scalable backend
+                systems
+              </span>
+              , along with exploring modern technologies,and building
+              high-performance applications.
+            </p>
+
+            <p>
+              Outside of work and academics, I actively build projects and
+              maintain a personal platform featuring{" "}
+              <span className="text-gradient font-semibold">
+                1000+ Python projects
+              </span>
+              , an ongoing initiative focused on helping developers learn
+              through practical implementations.
             </p>
           </motion.div>
 
@@ -98,7 +147,9 @@ const AboutSection = () => {
               className="flex flex-col items-center gap-2 p-4 rounded-lg border border-primary/20 hover:border-primary/60 transition-colors card-hover"
             >
               <tech.icon className="text-4xl md:text-5xl text-primary" />
-              <span className="text-xs text-muted-foreground">{tech.label}</span>
+              <span className="text-xs text-muted-foreground">
+                {tech.label}
+              </span>
             </motion.div>
           ))}
         </div>
