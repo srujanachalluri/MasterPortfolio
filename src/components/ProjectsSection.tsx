@@ -4,12 +4,14 @@ import { BsGlobe } from "react-icons/bs";
 
 const projects = [
   {
-    title: "AI Chat Application",
+    title: "ChatSuite",
     description:
-      "A real-time chat application powered by AI with natural language processing capabilities and a modern UI.",
-    tech: ["React", "Node.js", "OpenAI", "Socket.io"],
-    github: "#",
-    demo: "#",
+      "A modern real-time chat application with AI integration, group rooms, direct messaging, and emoji reactions. Built with React and Firebase — zero backend servers needed.",
+    tech: ["React", "Firebase", "Gemini AI", "Framer Motion"],
+    github: "https://github.com/srujanachalluri/ChatSuite",
+    demo: "https://chatsuite-psi.vercel.app",
+    image: "/chatsuite.png",
+    featured: true,
   },
   {
     title: "E-Commerce Platform",

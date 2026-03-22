@@ -79,7 +79,7 @@ const HeroSection = () => {
           <div className="relative w-72 h-72 md:w-96 md:h-96">
             <div className="absolute inset-0 rounded-full bg-primary/10 animate-pulse" />
             <div className="absolute inset-4 rounded-full bg-primary/5 flex items-center justify-center">
-              <span className="text-8xl md:text-9xl">👨‍💻</span>
+              <span className="text-8xl md:text-9xl">👩‍💼</span>
             </div>
           </div>
         </motion.div>

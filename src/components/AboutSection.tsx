@@ -121,7 +121,7 @@ const AboutSection = () => {
             className="flex justify-center"
           >
             <div className="w-56 h-56 md:w-72 md:h-72 rounded-full bg-primary/10 flex items-center justify-center">
-              <span className="text-7xl md:text-8xl">🧑‍💻</span>
+              <span className="text-7xl md:text-8xl">👩‍💻</span>
             </div>
           </motion.div>
         </div>
