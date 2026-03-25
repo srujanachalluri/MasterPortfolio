@@ -50,7 +50,7 @@ const projects = [
       "A production-ready AI chat UI with persistent multi-session management, conversation history stored in Firestore, smooth streaming responses, and a clean modern interface. Supports multiple concurrent chat sessions with context preservation.",
     tech: ["Next.js", "React", "TypeScript", "Firebase", "Gemini AI", "Prisma"],
     github: "https://github.com/srujanachalluri/aichatuitype",
-    demo: "https://chatsuite-psi.vercel.app/",
+    demo: "https://aichatuitype.vercel.app/",
     image: "/chatsuite.png",
     featured: false,
     badge: "🤖 AI/ML",
