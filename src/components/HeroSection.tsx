@@ -52,7 +52,7 @@ const HeroSection = () => {
               <FaLinkedinIn className="text-xl" />
             </a>
             <a
-              href="https://srujanachalluri.github.io/python-projects-site/"
+              href="https://drive.google.com/file/d/1gfDCWmH45DlWTlMGvVNxySApDKrViQkA/view?usp=drive_link"
               target="_blank"
               rel="noreferrer"
               className="p-3 rounded-full border border-primary/50 text-foreground hover:bg-primary hover:text-primary-foreground transition-all duration-300"
