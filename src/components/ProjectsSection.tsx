@@ -65,7 +65,7 @@ const projects = [
     tech: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "Vite"],
     github: "https://github.com/srujanachalluri/MasterPortfolio",
     demo: "https://master-portfolio-rho.vercel.app/",
-    image: "/portfolio.png",
+    image: "/portfolio1.png",
     featured: false,
     badge: "🎨 Design",
     badgeColor: "#db2777",
