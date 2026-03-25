@@ -4,6 +4,28 @@ A modern, dark-themed developer portfolio built with React, TypeScript, Tailwind
 
 ---
 
+<p align="center">
+  <a href="https://master-portfolio-rho.vercel.app/">
+    <img src="https://img.shields.io/badge/🚀_Live_Demo-Visit_App-6366f1?style=for-the-badge&logoColor=white" alt="Live Demo"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/srujanachalluri/MasterPortfolio">
+    <img src="https://img.shields.io/github/stars/srujanachalluri/MasterPortfolio?style=for-the-badge&logo=github&color=fbbf24" alt="Stars"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/srujanachalluri/aichatuitype/fork">
+    <img src="https://img.shields.io/github/forks/srujanachalluri/ai-interview-coach?style=for-the-badge&logo=github&color=818cf8" alt="Forks"/>
+  </a>
+</p>
+
+
+<!-- Replace this with your actual screenshot after deployment -->
+<img src="public/portfolio.png" alt="chatui" width="85%" />
+
+<br/>
+
+
+
 ## 📁 Project Structure
 
 ```
@@ -204,3 +226,21 @@ npm run build
 ```
 
 Or srujana portfolio: **Share → Publish**.
+
+## 👩‍💻 Author
+
+<div align="center">
+
+**Srujana Challuri** — Software Engineer
+
+[![GitHub](https://img.shields.io/badge/GitHub-srujanachalluri-181717?style=flat-square&logo=github)](https://github.com/srujanachalluri)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-6366f1?style=flat-square)](https://master-portfolio-rho.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/srujanachalluri)
+
+</div>
+
+---
+
+## 📄 License
+
+MIT License — free to use for learning or your own portfolio.
