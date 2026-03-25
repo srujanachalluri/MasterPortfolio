@@ -70,7 +70,7 @@ const ResumeSection = () => {
 
         <div className="flex justify-center mb-16">
           <a
-            href="https://drive.google.com/file/d/13M1rvwrfWZBuvaEzOioihuQ1HTkqDmKQ/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1gfDCWmH45DlWTlMGvVNxySApDKrViQkA/view?usp=drive_link"
             className="flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-opacity"
           >
             <AiOutlineDownload className="text-xl" />
