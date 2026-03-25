@@ -20,7 +20,7 @@ A modern, dark-themed developer portfolio built with React, TypeScript, Tailwind
 
 
 <!-- Replace this with your actual screenshot after deployment -->
-<img src="public/portfolio.png" alt="chatui" width="85%" />
+<img src="public/portfolio1.png" alt="chatui" width="85%" />
 
 <br/>
 
