@@ -51,7 +51,7 @@ const projects = [
     tech: ["Next.js", "React", "TypeScript", "Firebase", "Gemini AI", "Prisma"],
     github: "https://github.com/srujanachalluri/aichatuitype",
     demo: "https://aichatuitype.vercel.app/",
-    image: "/chatsuite.png",
+    image: "/msg.png",
     featured: false,
     badge: "🤖 AI/ML",
     badgeColor: "#16a34a",
